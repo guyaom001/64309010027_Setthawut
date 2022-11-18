@@ -17,8 +17,6 @@ let order = [{
     "Price": [199, 20, 499]
 }
 ]
-
-//console.log(order[0].Itemorder.length);
 for (i = 0; i < order.length; i++) {
     let sum =0;
     for(let j=0;j<order[i].ItemOrder.length;j++){
