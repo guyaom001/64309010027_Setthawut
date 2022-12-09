@@ -14,13 +14,11 @@
 </head>
 
 <body>
-    <div class="container" id="display">
-
-    </div>
+    <div class="container" id="display"> </div>
 
     <script>
         let xhttp = new XMLHttpRequest();
-        xhttp.open("GET", 'http://localhost:3000/book');
+        xhttp.open("GET", "http://localhost:3000/book");
         xhttp.send();
         xhttp.onload = function () {
             let obj = JSON.parse(this.responseText);
