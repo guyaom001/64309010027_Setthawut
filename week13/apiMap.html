@@ -47,8 +47,8 @@
         }
         var data = google.visualization.arrayToDataTable(dataMap);
         var options = {
-            region 'TH',
-            resolution 'Provinces',
+            region: 'TH',
+            resolution: 'Provinces',
         };
         var chart = new google.visualization.GeoChart(document.getElementById('display'));
         chart.draw(data,options);
